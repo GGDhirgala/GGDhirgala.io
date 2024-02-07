@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+body {
+    background-color: rgb(189, 156, 190);
+    font-family: Vollkorn, serif; }
+
+header>h1 {text-align: center;
+color: #e30e59;
+width: 250pх;
+background-color: #84076d;}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(104, 44, 79);
+    font-style: oblique;
+    font-size: xx-large;}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: deeppink;
+    font-style: oblique;
+    font-size: xx-large;}
+ 
+.navbar.navbar-expand-lg.navbar-light.bg-light .container-fluid .navbar-brand img { 
+    width: 100px;}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+     background-color: rgb(178, 125, 152);}
+
+.container-fluid .row .col-lg-4.col-md-6 .card {
+    width: 250px;}
+
+.card {color: #84076d;}
+section {padding-top: 10px;}
+ 
+.home {margin-top: 100px;}
+
+.home>h1 {margin-left: 100px; 
+color: #e30e59;
+margin-top: 100 px;}
+
+.home>h2 {margin-left: 150px;
+font-style: italic;
+list-style: circle;
+color: #84076d;}
+
+.home>ul>li {margin-left: 200px;
+color: deeppink;
+font-size: x-large;}
+
+.home>p {margin-left: 200px;
+    color: deeppink;
+font-size: x-large;}
+
+.nav-item .nav-link>img {width: 100px;}
+
+table {font-family: sans-serif;
+text-align: left;
+border-collapse: separate;
+border-spacing: 10px;
+background: #c193b9;
+color: #84076d;
+border-radius: 20px;
+border: 16px solid cornsilk;
+text-align: center;
+margin-top: 10px;
+margin-left: 100px;}
+
+th {font-size: 18px;
+padding: 10px;}
+
+td {padding: 10px;
+background-color: cornsilk;}
+
+td>a>img {width: 60px;}
+ 
+
+
+
+
+
+

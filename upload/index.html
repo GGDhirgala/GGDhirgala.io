@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="ресурсы/styles/css.css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="mail.php">
+  <title>Happy Donut</title>
+</head>
+
+<body>
+  <header>
+    <h1>Нарру Donut</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img
+            src="ресурсы/fyles/png-transparent-homer-simpson-eating-giant-donut-cartoons-the-simpsons.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="features.html">Адреса</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Меню</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="https://www.youtube.com" target="_blank"><img src="ресурсы/fyles/Без названия.jpeg" alt="ютуб"></a>
+            </li>
+            
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="home">
+
+    <!-- <p class="cities">Заказы доступны в следующих городах:</p> -->
+    <!-- <ol class="bigcities"> -->
+    <!-- <li>Москва</li> -->
+    <!-- <li>Санкт-Петербург</li> -->
+    <!-- <li>Казань</li> -->
+    <!-- <li>Екатеринбург</li> -->
+    <!-- </ol> -->
+    <h1>Все о доставке:</h1>
+    <h2>Заказы доступны в следующих городах:</h2>
+    <ul>
+      <li>Москва</li>
+      <li>Санкт-Петербург</li>
+      <li>Екатеринбург</li>
+      <li>Казань</li>
+    </ul>
+    <h2>Время ожидания доставки</h2>
+    <p>Время доставки может меняться в зависимости от загруженности курьерской службы, также как и время указанное
+      первоначально может быть увеличено. В среднем доставка занимает 30-40 минут</p>
+    <h2>Часы работы доставки</h2>
+    <ul>
+      <li>ПН 08.00-22.00</li>
+      <li>ВТ 08.00-22.00</li>
+      <li>CP 08.00-22.00</li>
+      <li>ЧТ 08.00-22.00</li>
+      <li>ПТ 08.00-21.00</li>
+      <li>CБ 09.00-21.00</li>
+      <li>ВС 09.00-21.00</li>
+    </ul>
+    <h2>Cтоимость доставки</h2>
+    <p>Доставка курьером осуществляется бесплатно</p>
+
+    <h1>Здесь вы можете оставить обратную связь</h1>
+    <form action="mail.php" method="post">
+      <input type="hidden" name="project.name" value="Happy Donut">
+      <input type="hidden" name="admin.email" value="mandzievadzirgala@gmail.com">
+      <input type="hidden" name="form.theme" value="feedback">
+      <input type="text" name="name" placeholder="введите ФИО" required>
+      <input type="tel" name="number" placeholder="введите номер телефона" required>
+      <input type="отзыв" name="feedback" placeholder="оставьте отзыв">
+      <input type="submit" value="Отправить ">
+
+    </form>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</body>
+
+</html>
